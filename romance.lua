@@ -1,0 +1,7 @@
+print("Fale um nome")
+print()
+local nome_um = io.read()
+print("Ok, agore me fale outro nome...")
+print()
+local nome_dois = io.read()
+print(nome_um .. " ama " .. nome_dois)
